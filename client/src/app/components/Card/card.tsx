@@ -13,7 +13,6 @@ export default function Card({ height, width, children } : CardProps) {
             className={styles.cardBody} 
             style={{ height: height, width: width }}
         >
-            <h1>testing value</h1>
             {children}
         </div>
     )

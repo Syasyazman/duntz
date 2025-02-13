@@ -1,3 +1,320 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/components/Card/card.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.card_cardBody__OWz9l {
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(23 22 26 / var(--tw-bg-opacity, 1));
+    padding: 1rem;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity, 1))
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/chat/chat.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.chat_chatBody__6T2eV {
+
+    margin-bottom: 1rem;
+
+    display: flex;
+
+    height: 10%;
+
+    width: 100%;
+
+    flex-direction: row;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 1rem;
+
+    --tw-bg-opacity: 1;
+
+    background-color: rgb(23 22 26 / var(--tw-bg-opacity, 1));
+
+    font-size: 1rem;
+
+    line-height: 1.5rem;
+
+    --tw-text-opacity: 1;
+
+    color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+
+    transition-duration: 200ms;
+
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.chat_chatBody__6T2eV:hover {
+
+    border-radius: 0.375rem;
+
+    --tw-bg-opacity: 1;
+
+    background-color: rgb(39 39 41 / var(--tw-bg-opacity, 1))
+}
+
+.chat_chatBodyActive___I21D {
+
+    --tw-bg-opacity: 1;
+
+    background-color: rgb(39 39 41 / var(--tw-bg-opacity, 1))
+}
+
+.chat_chatProfile__SfX69 {
+
+    display: flex;
+
+    height: 100%;
+
+    width: auto;
+
+    align-items: center
+}
+
+.chat_chatInfo__sc7Z0 {
+
+    display: flex;
+
+    height: 100%;
+
+    width: 100%;
+
+    flex-direction: column
+}
+
+.chat_chatName__Qp1ue {
+
+    height: 100%;
+
+    width: 100%;
+
+    text-align: left;
+
+    font-weight: 600
+}
+
+.chat_chatBox__6Wu9R {
+
+    display: flex;
+
+    height: 100%;
+
+    width: 100%;
+
+    flex-direction: row;
+
+    align-items: center;
+
+    justify-content: flex-start;
+
+    gap: 0.5rem;
+
+    text-align: left
+}
+
+.chat_chatBoxMessage__dIBej {
+
+    height: 100%;
+
+    width: auto;
+
+    max-width: 80%
+}
+
+.chat_chatBoxTime__Btexd {
+
+    height: 100%;
+
+    width: auto;
+
+    max-width: 20%
+}
+
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/playlist/playlist.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.playlist_playlistBody__iQ12r {
+
+    margin-bottom: 1rem;
+
+    display: flex;
+
+    height: 10%;
+
+    width: 100%;
+
+    flex-direction: row;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 1rem;
+
+    --tw-bg-opacity: 1;
+
+    background-color: rgb(23 22 26 / var(--tw-bg-opacity, 1));
+
+    font-size: 1rem;
+
+    line-height: 1.5rem;
+
+    --tw-text-opacity: 1;
+
+    color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+
+    transition-duration: 200ms;
+
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.playlist_playlistBody__iQ12r:hover {
+
+    border-radius: 0.375rem;
+
+    --tw-bg-opacity: 1;
+
+    background-color: rgb(39 39 41 / var(--tw-bg-opacity, 1))
+}
+
+.playlist_playlistBodyActive__l96sQ {
+
+    --tw-bg-opacity: 1;
+
+    background-color: rgb(39 39 41 / var(--tw-bg-opacity, 1))
+}
+
+.playlist_playlistProfile__JzOs0 {
+
+    display: flex;
+
+    height: 100%;
+
+    width: auto;
+
+    align-items: center
+}
+
+.playlist_playlistInfo__1Wa63 {
+
+    display: flex;
+
+    height: 100%;
+
+    width: 100%;
+
+    flex-direction: column
+}
+
+.playlist_playlistName__rbnTW {
+
+    height: 100%;
+
+    width: 100%;
+
+    text-align: left;
+
+    font-weight: 600
+}
+
+.playlist_playlistCreator__rIfBJ {
+
+    height: 100%;
+
+    width: 100%;
+
+    text-align: left;
+
+    --tw-text-opacity: 1;
+
+    color: rgb(192 190 196 / var(--tw-text-opacity, 1))
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/components/Navbar/navbar.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.navbar_navbarBody__cf_QZ {
+
+    display: flex;
+
+    width: 100%;
+
+    flex-grow: 1;
+
+    flex-direction: row;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 0.5rem
+}
+
+.navbar_navbarButton__V1PWR {
+
+    width: 100%;
+
+    justify-content: center;
+
+    border-radius: 0.375rem;
+
+    --tw-bg-opacity: 1;
+
+    background-color: rgb(23 22 26 / var(--tw-bg-opacity, 1));
+
+    padding-left: 0.5rem;
+
+    padding-right: 0.5rem;
+
+    padding-top: 0.5rem;
+
+    padding-bottom: 0.5rem;
+
+    --tw-text-opacity: 1;
+
+    color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+
+    transition-duration: 200ms;
+
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.navbar_navbarButton__V1PWR:hover {
+
+    --tw-bg-opacity: 1;
+
+    background-color: rgb(39 39 41 / var(--tw-bg-opacity, 1))
+}
+
+.navbar_navbarButtonActive__AqJ6_ {
+
+    --tw-bg-opacity: 1;
+
+    background-color: rgb(107 52 247 / var(--tw-bg-opacity, 1));
+
+    --tw-text-opacity: 1;
+
+    color: rgb(255 255 255 / var(--tw-text-opacity, 1))
+}
+
+.navbar_navbarButtonActive__AqJ6_:hover {
+
+    --tw-bg-opacity: 1;
+
+    background-color: rgb(107 52 247 / var(--tw-bg-opacity, 1))
+}
+
 /*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/components/Topbar/topbar.module.css ***!
   \***************************************************************************************************************************************************************************************************************************************************************************************/
@@ -28,21 +345,27 @@
 
 .topbar_topbarLogo__NbwpA {
 
+    margin-left: 0.5rem;
+
     margin-right: 0.5rem;
 
     display: flex;
+
+    height: 100%;
 
     flex-direction: row;
 
     align-items: center;
 
+    gap: 1rem;
+
     --tw-bg-opacity: 1;
 
     background-color: rgb(13 13 13 / var(--tw-bg-opacity, 1));
 
-    font-size: 1rem;
+    font-size: 1.25rem;
 
-    line-height: 1.5rem;
+    line-height: 1.75rem;
 
     font-weight: 800;
 
@@ -549,6 +872,9 @@ video {
 /* Tailwind's components like buttons, cards, etc. */
 
 /* Tailwind's utility classes like margin, padding, text, etc. */
+.mt-8 {
+  margin-top: 2rem;
+}
 .flex {
   display: flex;
 }
@@ -564,8 +890,17 @@ video {
 .h-\[80\%\] {
   height: 80%;
 }
+.h-full {
+  height: 100%;
+}
 .h-screen {
   height: 100vh;
+}
+.w-\[50\%\] {
+  width: 50%;
+}
+.w-full {
+  width: 100%;
 }
 .w-screen {
   width: 100vw;
@@ -580,12 +915,20 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(13 13 13 / var(--tw-bg-opacity, 1));
 }
-.bg-purple-100 {
+.bg-white {
   --tw-bg-opacity: 1;
-  background-color: rgb(243 232 255 / var(--tw-bg-opacity, 1));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+.bg-pink-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(236 72 153 / var(--tw-bg-opacity, 1));
 }
 .p-2 {
   padding: 0.5rem;
+}
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 .text-white {
   --tw-text-opacity: 1;

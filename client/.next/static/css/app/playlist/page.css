@@ -1,0 +1,102 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/playlist/playlist.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.playlist_playlistBody__iQ12r {
+
+    margin-bottom: 1rem;
+
+    display: flex;
+
+    height: 10%;
+
+    width: 100%;
+
+    flex-direction: row;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 1rem;
+
+    --tw-bg-opacity: 1;
+
+    background-color: rgb(23 22 26 / var(--tw-bg-opacity, 1));
+
+    font-size: 1rem;
+
+    line-height: 1.5rem;
+
+    --tw-text-opacity: 1;
+
+    color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+
+    transition-duration: 200ms;
+
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.playlist_playlistBody__iQ12r:hover {
+
+    border-radius: 0.375rem;
+
+    --tw-bg-opacity: 1;
+
+    background-color: rgb(39 39 41 / var(--tw-bg-opacity, 1))
+}
+
+.playlist_playlistBodyActive__l96sQ {
+
+    --tw-bg-opacity: 1;
+
+    background-color: rgb(39 39 41 / var(--tw-bg-opacity, 1))
+}
+
+.playlist_playlistProfile__JzOs0 {
+
+    display: flex;
+
+    height: 100%;
+
+    width: auto;
+
+    align-items: center
+}
+
+.playlist_playlistInfo__1Wa63 {
+
+    display: flex;
+
+    height: 100%;
+
+    width: 100%;
+
+    flex-direction: column
+}
+
+.playlist_playlistName__rbnTW {
+
+    height: 100%;
+
+    width: 100%;
+
+    text-align: left;
+
+    font-weight: 600
+}
+
+.playlist_playlistCreator__rIfBJ {
+
+    height: 100%;
+
+    width: 100%;
+
+    text-align: left;
+
+    --tw-text-opacity: 1;
+
+    color: rgb(192 190 196 / var(--tw-text-opacity, 1))
+}
+

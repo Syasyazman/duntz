@@ -1,0 +1,11 @@
+.navbarBody {
+  @apply w-full flex flex-grow flex-row gap-2 items-center justify-between;
+}
+
+.navbarButton {
+  @apply w-full bg-secondary px-2 py-2 rounded-md text-white justify-center transition-colors duration-200 ease-in-out hover:bg-grey1;
+}
+
+.navbarButtonActive {
+  @apply bg-accent text-white hover:bg-accent;
+}

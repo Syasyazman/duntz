@@ -3,7 +3,7 @@
 }
 
 .topbarLogo {
-  @apply bg-primary flex flex-row text-accent font-extrabold text-base items-center mr-2;
+  @apply bg-primary h-full flex flex-row text-accent font-extrabold text-xl items-center mx-2 gap-4;
 }
 
 .topbarSearch {

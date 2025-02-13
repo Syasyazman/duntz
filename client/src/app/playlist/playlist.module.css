@@ -1,0 +1,23 @@
+.playlistBody {
+  @apply h-[10%] w-full flex flex-row bg-secondary mb-4 hover:bg-grey1 hover:rounded-md text-white text-base items-center justify-between gap-4 transition-colors duration-200 ease-in-out;
+}
+
+.playlistBodyActive {
+  @apply bg-grey1;
+}
+
+.playlistProfile {
+  @apply w-auto h-full items-center flex;
+}
+
+.playlistInfo {
+  @apply h-full w-full flex flex-col;
+}
+
+.playlistName {
+  @apply h-full w-full text-left font-semibold;
+}
+
+.playlistCreator {
+  @apply h-full w-full text-left text-grey2;
+}

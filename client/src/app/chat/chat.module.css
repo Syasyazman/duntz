@@ -1,0 +1,31 @@
+.chatBody {
+  @apply h-[10%] w-full flex flex-row bg-secondary mb-4 hover:bg-grey1 hover:rounded-md text-white text-base items-center justify-between gap-4 transition-colors duration-200 ease-in-out;
+}
+
+.chatBodyActive {
+  @apply bg-grey1;
+}
+
+.chatProfile {
+  @apply w-auto h-full items-center flex;
+}
+
+.chatInfo {
+  @apply h-full w-full flex flex-col;
+}
+
+.chatName {
+  @apply h-full w-full text-left font-semibold;
+}
+
+.chatBox {
+  @apply h-full w-full text-left flex flex-row items-center justify-start gap-2;
+}
+
+.chatBoxMessage {
+  @apply h-full w-auto max-w-[80%];
+}
+
+.chatBoxTime {
+  @apply h-full w-auto max-w-[20%];
+}

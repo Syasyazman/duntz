@@ -8,7 +8,7 @@ export default function Topbar() {
     return (
         <div className={styles.topbarBody}>
             <div className={styles.topbarLogo}>
-                <Image src={DuntzIcon} alt="Duntz icon" width={80} />
+                <Image src={DuntzIcon} alt="Duntz icon" width={80} height={20} />
                 <div>Duntz</div>
             </div>
             <div className={styles.topbarSearch}>
