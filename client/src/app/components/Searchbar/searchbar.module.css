@@ -1,0 +1,7 @@
+.searchbarBody {
+  @apply bg-grey1 rounded-xl h-full flex flex-row items-center p-2;
+}
+
+.searchBox {
+  @apply text-sm text-grey2 ml-2;
+}

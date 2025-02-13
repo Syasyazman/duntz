@@ -1,0 +1,15 @@
+.topbarBody {
+  @apply bg-primary text-white p-2 h-[100%] w-[100%] flex flex-row justify-between items-center;
+}
+
+.topbarLogo {
+  @apply bg-primary flex flex-row text-accent font-extrabold text-base items-center mr-2;
+}
+
+.topbarSearch {
+  @apply bg-grey1 w-[30%] h-[70%] rounded-xl justify-start;
+}
+
+.topbarAccount {
+  @apply bg-primary;
+}
