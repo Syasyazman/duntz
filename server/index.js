@@ -1,36 +1,21 @@
-const express = require("express");
-const mongoose = require('mongoose');
-const Event = require('../models/event.js');
-
-const PORT = process.env.PORT || 3001;
-
+require("dotenv").config();
+require("express-async-errors"); // takes care of async errors
+const express = require('express');
+const cors = require("cors");
+const connection = require("./db");
+const userRoutes = require("./routes/user");
+const authRoutes = require("./routes/auth");
 const app = express();
 
-// routing path
-// app.get('/', (req, res) => {
-//     res.send('Hello World!');
-//   });
+connection();
 
-app.get("/api", (req, res) => {
-res.json({ message: "Hello from server!" });
-});
+// apply global settings
+app.use(cors());
+app.use(express.json());
 
-// start server
-app.listen(PORT, () => {
-  console.log(`Server listening on ${PORT}`);
-});
+// define sign up route
+app.use("/api/users", userRoutes);
+app.use("/api/login", authRoutes);
 
-// Replace <username>, <password>, and <dbname> with your actual credentials
-const dbURL = "mongodb+srv://syasyazman:RZCUB0xamANGG9lY@cluster1.xhgdc.mongodb.net/?retryWrites=true&w=majority&appName=cluster1";
-
-mongoose
-  .connect(dbURL)
-  .then((result) => {
-    console.log('Connected to MongoDB!');
-    app.listen(3000, () => {
-      console.log('Server started on port 3000');
-    });
-  })
-  .catch((err) => {
-    console.error('Could not connect to MongoDB:', err);
-  });
+const port = process.env.PORT || 8080;
+app.listen(port, console.log(`Listening on port ${port}...`));
