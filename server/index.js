@@ -18,7 +18,7 @@ app.use(express.json());
 
 // define sign up route
 app.use("/api/users", userRoutes);
-app.use("/api/login", authRoutes);
+app.use("/api/auth", authRoutes);
 app.use("/api/songs", songRoutes);
 app.use("/api/playlists", playlistRoutes);
 app.use("/api/search", searchRoutes);

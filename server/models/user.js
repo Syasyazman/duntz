@@ -4,15 +4,17 @@ const Joi = require("joi"); // data validation lib for javascript
 const passwordComplexity = require("joi-password-complexity");
 
 const userSchema = new mongoose.Schema({
-    name: { type: String, required: true },
-    email: { type: String, required: true, unique: true },
-    password: { type: String, required: true },
-    gender: { type: String, required: true },
-    month: { type: String, required: true },
-    date: { type: String, required: true },
-    year: { type: String, required: true },
+    spotifyId: { type: String, required: true, unique: true }, // Spotify user ID
+    displayName: { type: String },
+    email: { type: String, unique: true },
+    profilePicture: { type: [Object] },
+    followers: { type: Number, default: 0 },
+    friends: { type: Number, default: 0 },
+    accessToken: { type: String },
+    refreshToken: { type: String },
     likedSongs: { type: [String], default: [] },
     playlists: { type: [String], default: [] },
+    uri: { type: String, required: true },
     isAdmin: { type: Boolean, default: false }
 })
 
@@ -28,13 +30,18 @@ userSchema.methods.generateAuthToken = function () {
 
 const validate = (user) => {
     const schema = Joi.object({
-        name: Joi.string().min(5).max(10).required(),
-        email: Joi.string().email().required(),
-        password: passwordComplexity().required(),
-        month: Joi.string().required(),
-        date: Joi.string().required(),
-        year: Joi.string().required(),
-        gender: Joi.string().valid("male", "female", "non-binary").required()
+        spotifyId: Joi.string().required(),
+        displayName: Joi.string().allow(""),
+        email: Joi.string().allow(""),
+        profilePicture: Joi.array().items(Joi.object()),
+        followers: Joi.number(),
+        friends: Joi.number(),
+        accessToken: Joi.string().allow(""),
+        refreshToken: Joi.string().allow(""),
+        likedSongs: Joi.array().items(Joi.string()),
+        playlists: Joi.array().items(Joi.string()),
+        uri: Joi.string().required(),
+        isAdmin: Joi.boolean()
     });
 
     return schema.validate(user);
